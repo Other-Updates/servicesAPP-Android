@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/emp_service"
+        android:title="Services"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_service_flat"/>
+    <item android:id="@+id/emp_today_task"
+        android:title="Today Task"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_today_task_flat"
+        android:iconTint="#1da493"/>
+    <item android:id="@+id/emp_home"
+        android:title="Home"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home"
+        android:iconTint="#1da493"/>
+    <item android:id="@+id/emp_profile"
+        android:title="Profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_user_logo"
+        android:iconTint="#1da493"/>
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/lead_id"
+        android:title="Leads"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/call_logo"
+        android:iconTint="#1da493"/>
+    <item android:id="@+id/service_id"
+        android:title="Services"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_customer"/>
+    <item android:id="@+id/home_id"
+        android:title="Home"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_home"
+        android:iconTint="#1da493"/>
+    <item android:id="@+id/profile_id"
+        android:title="Profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_user_logo"
+        android:iconTint="#1da493"/>
+    <item android:id="@+id/apps_id"
+        android:title="Youtube"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_youtube"
+        android:iconTint="#1da493"/>
+</menu>

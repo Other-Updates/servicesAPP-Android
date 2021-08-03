@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="com.f2f.incls"
+5    android:versionCode="1"
+6    android:versionName="1.0.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="21"
+9-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:7:5-40
+12-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:7:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:10:5-81
+16-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+17-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:11:5-76
+17-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:11:22-73
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:12:5-79
+18-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:13:5-80
+19-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="WRITE_INTERNAL_STORAGE" />
+21-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:15:5-62
+21-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:15:22-59
+22    <uses-permission android:name="android.permission.CAMERA" />
+22-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:16:5-65
+22-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:16:22-62
+23    <uses-permission android:name="android.permission.WAKE_LOCK" />
+23-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:17:5-68
+23-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:17:22-65
+24    <uses-permission android:name="android.permission.CALL_PHONE" />
+24-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:18:5-69
+24-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:18:22-66
+25    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+25-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:19:5-76
+25-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:19:22-72
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:20:5-77
+26-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:20:22-74
+27    <uses-permission android:name="android.permission.READ_SMS" />
+27-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:21:5-67
+27-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:21:22-64
+28    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+28-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:22:5-70
+28-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:22:22-67
+29    <uses-permission android:name="android.permission.READ_CONTACTS" />
+29-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:23:5-72
+29-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:23:22-69
+30
+31    <queries>
+31-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:25:5-29:15
+32        <intent>
+32-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:26:9-28:18
+33            <action android:name="android.media.action.IMAGE_CAPTURE" />
+33-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:27:13-72
+33-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:27:21-70
+34        </intent>
+35    </queries>
+36
+37    <application
+37-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:31:5-68:19
+38        android:name="com.f2f.incls.utilitty.AppController"
+38-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:32:9-47
+39        android:allowBackup="true"
+39-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:33:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/45238f3d6e31202c1faf3beb92d4f187/core-1.0.0/AndroidManifest.xml:22:18-86
+41        android:hardwareAccelerated="true"
+41-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:34:9-43
+42        android:icon="@drawable/favicon"
+42-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:35:9-41
+43        android:label="@string/app_name"
+43-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:36:9-41
+44        android:largeHeap="true"
+44-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:37:9-33
+45        android:roundIcon="@mipmap/logo"
+45-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:38:9-41
+46        android:supportsRtl="true"
+46-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:39:9-35
+47        android:theme="@style/AppTheme.NoActionBar"
+47-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:40:9-52
+48        android:usesCleartextTraffic="true"
+48-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:41:9-44
+49        android:windowSoftInputMode="adjustPan" >
+49-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:42:9-48
+50        <activity android:name="com.f2f.incls.Fullscreen_image" />
+50-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:43:9-63
+50-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:43:19-51
+51        <activity
+51-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:44:9-46:55
+52            android:name="com.f2f.incls.activity.LoginActivity"
+52-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:45:13-51
+53            android:windowSoftInputMode="adjustPan" />
+53-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:46:13-52
+54        <activity
+54-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:47:9-49:55
+55            android:name="com.f2f.incls.activity.EmployeeDashboard"
+55-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:48:13-55
+56            android:windowSoftInputMode="adjustPan" />
+56-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:49:13-52
+57        <activity
+57-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:50:9-52:55
+58            android:name="com.f2f.incls.activity.CustomerDashBoard"
+58-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:51:13-55
+59            android:windowSoftInputMode="adjustPan" />
+59-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:52:13-52
+60        <activity
+60-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:53:9-55:55
+61            android:name="com.f2f.incls.activity.OTPVerifyActivity"
+61-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:54:13-55
+62            android:windowSoftInputMode="adjustPan" />
+62-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:55:13-52
+63        <activity android:name="com.f2f.incls.activity.SplashActivity" >
+63-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:56:9-62:20
+63-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:56:19-58
+64            <intent-filter>
+64-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:57:13-61:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:58:17-69
+65-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:58:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:60:17-77
+67-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:60:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:63:9-65:55
+71            android:name="com.f2f.incls.activity.RegisterActivity"
+71-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:64:13-54
+72            android:windowSoftInputMode="adjustPan" />
+72-->/Users/test/Downloads/IncredibleSolution 3/app/src/main/AndroidManifest.xml:65:13-52
+73        <activity
+73-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+74            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+74-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+75            android:excludeFromRecents="true"
+75-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+78        <!--
+79            Service handling Google Sign-In user revocation. For apps that do not integrate with
+80            Google Sign-In, this service will never be started.
+81        -->
+82        <service
+82-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+83            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+83-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+84            android:exported="true"
+84-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+85            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+85-->[com.google.android.gms:play-services-auth:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/6e4e6465718200119504a732db559637/jetified-play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+86
+87        <provider
+87-->[com.squareup.picasso:picasso:2.71828] /Users/test/.gradle/caches/transforms-2/files-2.1/23b9692360e36167c0b01a76d567ffc5/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+88            android:name="com.squareup.picasso.PicassoProvider"
+88-->[com.squareup.picasso:picasso:2.71828] /Users/test/.gradle/caches/transforms-2/files-2.1/23b9692360e36167c0b01a76d567ffc5/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+89            android:authorities="com.f2f.incls.com.squareup.picasso"
+89-->[com.squareup.picasso:picasso:2.71828] /Users/test/.gradle/caches/transforms-2/files-2.1/23b9692360e36167c0b01a76d567ffc5/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+90            android:exported="false" />
+90-->[com.squareup.picasso:picasso:2.71828] /Users/test/.gradle/caches/transforms-2/files-2.1/23b9692360e36167c0b01a76d567ffc5/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+91
+92        <activity
+92-->[com.google.android.gms:play-services-base:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/e9af12053fbbbcd4c322fb00f6706570/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/e9af12053fbbbcd4c322fb00f6706570/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/e9af12053fbbbcd4c322fb00f6706570/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/e9af12053fbbbcd4c322fb00f6706570/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/5b384d348ade37cfc4cf6b9238973884/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/5b384d348ade37cfc4cf6b9238973884/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:17.0.0] /Users/test/.gradle/caches/transforms-2/files-2.1/5b384d348ade37cfc4cf6b9238973884/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+100    </application>
+101
+102</manifest>

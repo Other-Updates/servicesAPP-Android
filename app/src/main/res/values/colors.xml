@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorFloatActionButton">#3580c3</color>
+    <color name="colorFloatDashboard">#3580c3</color>
+    <color name="colorWhite">#ffffff</color>
+   <!-- <color name="colorStatusbar">#3580c3</color>-->
+    <color name="colorStatusbar"> #ff7000</color>
+    <color name="colorLead">#1da493</color>
+    <color name="colorRaiseTicket">#57ad9f</color>
+    <color name="colorBlue">#3580c3</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#ff7000</color>
+    <color name="colorGray">#bcbbbb</color>
+    <color name="colorYellow">#FF9800</color>
+    <!--<color name="colorApp">#3580c3</color>-->
+    <color name="colorApp">#004080</color>
+</resources>
+

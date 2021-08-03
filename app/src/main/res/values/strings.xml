@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Service App</string>
+    <string name="register">Register</string>
+    <string name="login">Login As</string>
+    <string name="name">User Name</string>
+    <string name="email">Email ID</string>
+    <string name="register_mobile">Phone No</string>
+    <string name="employee_id">Employee name</string>
+    <string name="register_password">Password</string>
+    <string name="register_location">Location</string>
+    <string name="otp_text">We will send OTP for Verification</string>
+    <string name="otp_text1"> Carrier charges may apply</string>
+    <string name="title_activity_otp">OTPActivity</string>
+    <string name="login_tv">Dont"'"t have an account signup here</string>
+    <string name="customer">customer</string>
+    <string name="employee">employee</string>
+    <string name="otp_des">We have send an OTP on your mobile number</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="otp_dialogue">OTP has been send to your registered Mobile Number.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dash_board">DashBoard</string>
+    <string name="work_performed">Work Performed</string>
+</resources>

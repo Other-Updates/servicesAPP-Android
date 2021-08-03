@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.CustomerServiceFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/full_lead_rec"/>
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/loader_img"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/solutionsgif"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/no_service_data"
+                android:visibility="gone"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add_service_float"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="2dp"
+                android:backgroundTint="@color/colorBlue"
+                android:src="@drawable/ic_plus"
+                app:fabCustomSize="40dp"
+                app:maxImageSize="40dp"
+                app:rippleColor="@color/colorApp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
